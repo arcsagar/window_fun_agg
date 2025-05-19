@@ -47,4 +47,5 @@ select  avg(sales) over(partition by order_date), sum(qty) over(partition by ord
 
 select  avg(sales) over(partition by extract(year from order_date)), * from sales
 
+select * from sales
 
